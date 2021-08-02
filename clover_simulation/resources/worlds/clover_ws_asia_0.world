@@ -64,21 +64,6 @@
       <pose>5.7 4.3 0 0 0 1.5707963267948966</pose>
     </include>
 
-    <!-- Isles -->
-    <include>
-      <uri>model://aruco_203</uri>
-      <pose>0 7.5 0 0 0 0</pose>
-    </include>
-    <include>
-      <uri>model://aruco_204</uri>
-      <pose>1.5 7.5 0 0 0 0</pose>
-    </include>
-    <include>
-      <uri>model://aruco_205</uri>
-      <pose>3 7.5 0 0 0 0</pose>
-    </include>
-
-
     <!-- Drifting boat -->
     <actor name="boat_b">
       <pose>2 2 0 0 0 0</pose>

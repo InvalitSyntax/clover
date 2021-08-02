@@ -3,12 +3,12 @@
   <model name="aruco_202">
     <static>true</static>
     <link name="marker_202_link">
-      <pose>0.11 0 0.01 0 0 1.5707963267948966</pose>
+      <pose>0.13 0 0.01 0 0 1.5707963267948966</pose>
       <visual name="visual_marker_202">
         <cast_shadows>false</cast_shadows>
         <geometry>
           <box>
-            <size>0.1 0.1 1e-3</size>
+            <size>0.125 0.125 1e-3</size>
           </box>
         </geometry>
         <material>

@@ -71,11 +71,11 @@
     </include>
     <include>
       <uri>model://aruco_204</uri>
-      <pose>1.5 7.5 0 0 0 0</pose>
+      <pose>1 7.5 0 0 0 0</pose>
     </include>
     <include>
       <uri>model://aruco_205</uri>
-      <pose>3 7.5 0 0 0 0</pose>
+      <pose>2 7.5 0 0 0 0</pose>
     </include>
 
 

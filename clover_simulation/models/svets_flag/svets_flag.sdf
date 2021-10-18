@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+  <model name="svets_flag">
+    <static>true</static>
+    <link name="rus_flag2_link">
+      <pose>0 0 1e-3 0 0 1.5707963267948966</pose>
+      <visual name="visual_svets_flag">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>0.75 1 1e-3</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://svets_flag/materials/scripts</uri>
+            <uri>model://svets_flag/materials/textures</uri>
+            <name>aruco/svets_flag</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

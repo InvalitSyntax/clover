@@ -1,0 +1,15 @@
+material aruco/svets_flag
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture svets_flag.png
+                filtering none
+                scale 1.0 1.0
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+material aruco/rus_flag2
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture rus_flag2.png
+                filtering none
+                scale 1.0 1.0
+            }
+        }
+    }
+}
